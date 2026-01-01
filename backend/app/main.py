@@ -16,12 +16,20 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.auth import google_oauth
 from app.auth.jwt_utils import get_current_user
 
+# Import database for auto-initialization
+from app.db.database import engine
+from app.db.models import Base
 
 from app.routes import document_ingestion
 from app.routes import question_answering
 from app.routes import register
 from app.routes import admin_users
 from app.routes import password_reset
+
+# Auto-create database tables on startup (safe for production)
+print("[Startup] Creating database tables if they don't exist...")
+Base.metadata.create_all(bind=engine)
+print("[Startup] Database tables ready!")
 
 # Initialize embedding model once (singleton pattern)
 config = Config('.env')
@@ -156,10 +164,12 @@ def custom_openapi():
 	return app.openapi_schema
 app.openapi = custom_openapi
 
-# Enable CORS for frontend
+# Enable CORS for frontend (local and production)
+# Add your Render frontend URL to FRONTEND_ORIGINS env var
+FRONTEND_ORIGINS = os.getenv('FRONTEND_ORIGINS', 'http://localhost:3000,https://enterprise-frontend.onrender.com').split(',')
 app.add_middleware(
 	CORSMiddleware,
-	allow_origins=["http://localhost:3000"],
+	allow_origins=FRONTEND_ORIGINS,
 	allow_credentials=True,
 	allow_methods=["*"],
 	allow_headers=["*"]
