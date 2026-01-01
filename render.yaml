@@ -39,7 +39,7 @@ services:
       - key: GROQ_API_KEY
         sync: false
       - key: CHROMA_HOST
-        value: chromadb
+        value: ""
       - key: PYTHON_VERSION
         value: "3.10"
     healthCheckPath: /docs
