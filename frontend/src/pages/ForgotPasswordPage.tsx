@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { API_BASE } from '../services/api';
 
 const ForgotPasswordPage: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -13,7 +14,7 @@ const ForgotPasswordPage: React.FC = () => {
     setError('');
     setMessage('');
     try {
-      const res = await fetch('http://localhost:8000/auth/request-password-reset', {
+      const res = await fetch(`${API_BASE}/auth/request-password-reset`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
@@ -37,7 +38,7 @@ const ForgotPasswordPage: React.FC = () => {
     setError('');
     setMessage('');
     try {
-      const res = await fetch('http://localhost:8000/auth/reset-password', {
+      const res = await fetch(`${API_BASE}/auth/reset-password`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, token: resetToken, new_password: newPassword }),

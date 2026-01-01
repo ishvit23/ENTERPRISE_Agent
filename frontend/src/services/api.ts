@@ -52,7 +52,10 @@ export async function deleteDocument(docId: string) {
 // src/services/api.ts
 
 // Use environment variable for production, fallback to localhost for development
-const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+export const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+
+// WebSocket URL (convert http to ws)
+export const WS_BASE = API_BASE.replace(/^http/, 'ws');
 
 function getAuthHeaders(): Record<string, string> {
   const token = localStorage.getItem('jwt_token');

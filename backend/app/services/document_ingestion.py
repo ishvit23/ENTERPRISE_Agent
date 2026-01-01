@@ -4,12 +4,22 @@ Document ingestion service: embeds and stores documents in ChromaDB with departm
 from starlette.config import Config
 import chromadb
 from sentence_transformers import SentenceTransformer
+import os
 
 config = Config('.env')
-CHROMA_HOST = config('CHROMA_HOST', cast=str, default='chromadb')
+CHROMA_HOST = config('CHROMA_HOST', cast=str, default='')
 CHROMA_PORT = config('CHROMA_PORT', cast=str, default='8000')
 
-chroma = chromadb.HttpClient(host=CHROMA_HOST, port=int(CHROMA_PORT))
+# Initialize ChromaDB client - use PersistentClient for cloud, HttpClient for Docker
+if CHROMA_HOST and CHROMA_HOST != '':
+    # Docker/local development with separate ChromaDB server
+    chroma = chromadb.HttpClient(host=CHROMA_HOST, port=int(CHROMA_PORT))
+else:
+    # Cloud deployment (Render) - use persistent local storage
+    persist_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'chroma_data')
+    os.makedirs(persist_dir, exist_ok=True)
+    chroma = chromadb.PersistentClient(path=persist_dir)
+
 collection = chroma.get_or_create_collection("documents")
 
 # Use a lightweight model for demo; replace with production model as needed

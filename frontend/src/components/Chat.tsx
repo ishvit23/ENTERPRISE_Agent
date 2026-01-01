@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
+import { WS_BASE } from '../services/api';
 
-const WS_URL = 'ws://localhost:8000/ws/qa';
+const WS_URL = `${WS_BASE}/ws/qa`;
 
 interface ChatProps {
   user?: any;
