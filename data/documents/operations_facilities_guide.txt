@@ -1,0 +1,149 @@
+OPERATIONS DEPARTMENT - FACILITIES AND OFFICE GUIDE
+=====================================================
+
+OFFICE LOCATIONS
+----------------
+Headquarters:
+  123 Innovation Drive, Suite 500
+  Tech City, CA 94000
+  Phone: (555) 123-4567
+
+East Coast Office:
+  456 Business Boulevard, Floor 10
+  New York, NY 10001
+  Phone: (555) 234-5678
+
+European Office:
+  78 Enterprise Lane
+  London, UK EC2A 4BX
+  Phone: +44 20 1234 5678
+
+OFFICE HOURS
+------------
+Buildings open: 6:00 AM - 10:00 PM
+Core hours: 9:00 AM - 6:00 PM
+After-hours access: Badge required
+
+BUILDING ACCESS
+---------------
+All employees receive access badges on first day.
+Badge required for:
+- Building entry
+- Floor access
+- Parking garage
+- Print release
+
+Lost badges: Report immediately to Security (ext. 9000)
+Temporary badge: Available at reception with ID
+
+VISITOR POLICY
+--------------
+1. Pre-register visitors at reception@cloud9.com
+2. Visitors must sign in at reception
+3. Visitors must be escorted at all times
+4. Visitor badges must be visible
+5. Sign out when leaving
+
+MEETING ROOMS
+-------------
+Booking: Use Outlook or Robin app
+Room sizes:
+- Huddle (2-4 people): 15+ rooms per floor
+- Small (5-8 people): 6 rooms per floor
+- Medium (9-15 people): 3 rooms per floor
+- Large (16-30 people): 1 room per floor
+- All-hands (100+): Auditorium (HQ only)
+
+All rooms have:
+- Video conferencing (Zoom)
+- Whiteboard
+- Display screen
+- Power outlets
+
+DESK BOOKING (Hybrid)
+---------------------
+Use Robin app to book desks in advance.
+Hot desking policy:
+- Book up to 2 weeks ahead
+- Cancel if not using
+- Clear desk at end of day
+
+Assigned desks available for those in-office 4+ days/week.
+Request via Facilities ticket.
+
+KITCHEN AND AMENITIES
+---------------------
+Each floor has:
+- Full kitchen with refrigerator
+- Coffee machines (free)
+- Snacks and beverages (free)
+- Dishwasher (please load your dishes!)
+
+Refrigerators cleaned every Friday at 4 PM.
+Label food with your name and date.
+
+CATERING
+--------
+Book catering for meetings via catering@cloud9.com
+- Minimum 48 hours notice
+- Dietary restrictions accommodated
+- Approved vendors only
+
+MAIL AND PACKAGES
+-----------------
+Incoming: Delivered to mailroom daily
+Outgoing: Pickup at 4 PM daily
+Shipping supplies: Available in mailroom
+FedEx/UPS accounts: Use company accounts for business shipping
+
+Personal packages: Allowed, but company not responsible for loss.
+
+PARKING
+-------
+HQ: Underground garage (badge access)
+- First-come, first-served
+- Reserved spots for executives and accessibility
+- EV charging available (10 spots)
+
+NYC: Discounted parking at 450 Business Blvd garage
+- Validate at reception
+
+FACILITIES REQUESTS
+-------------------
+Submit via Facilities portal: facilities.cloud9.com
+Common requests:
+- Furniture requests
+- Temperature adjustments
+- Lighting issues
+- Cleaning requests
+- Repairs and maintenance
+
+Response times:
+- Urgent (safety): 1 hour
+- Standard: 24-48 hours
+- Projects: As scheduled
+
+EMERGENCY PROCEDURES
+--------------------
+Fire: Evacuate via nearest stairwell, meet at assembly point
+Medical: Call ext. 9999 or 911
+Security: Call ext. 9000
+Earthquake: Drop, cover, hold on
+
+Emergency exits clearly marked.
+Evacuation drills conducted quarterly.
+
+SUSTAINABILITY
+--------------
+We're committed to sustainability:
+- Recycling bins on every floor
+- Composting in kitchen areas
+- Single-use plastic eliminated
+- Energy-efficient lighting
+- Water bottle refill stations
+
+CONTACT FACILITIES
+------------------
+General: facilities@cloud9.com
+Urgent: ext. 4000
+Security: ext. 9000

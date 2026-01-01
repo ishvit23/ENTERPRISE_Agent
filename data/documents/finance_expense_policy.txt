@@ -1,0 +1,88 @@
+FINANCE DEPARTMENT - EXPENSE REIMBURSEMENT POLICY
+==================================================
+
+GENERAL GUIDELINES
+------------------
+All expenses must be:
+- Business-related and necessary
+- Pre-approved for amounts over $100
+- Submitted within 30 days of incurrence
+- Supported by valid receipts
+
+EXPENSE CATEGORIES AND LIMITS
+-----------------------------
+
+Travel - Airfare:
+- Economy class for flights under 6 hours
+- Business class for flights over 6 hours (VP approval required)
+- Book at least 14 days in advance when possible
+- Use corporate travel portal (Concur)
+
+Travel - Hotels:
+- Maximum $250/night domestic
+- Maximum $350/night international
+- Maximum $400/night in high-cost cities (NYC, SF, London)
+- Use preferred hotel partners for discounts
+
+Travel - Ground Transportation:
+- Rental cars: Compact or midsize only
+- Rideshare (Uber/Lyft): Allowed for business travel
+- Personal vehicle: $0.67/mile reimbursement
+- Parking: Actual cost with receipt
+
+Meals - While Traveling:
+- Breakfast: $20 maximum
+- Lunch: $30 maximum
+- Dinner: $50 maximum
+- Alcohol not reimbursable unless client entertainment
+
+Client Entertainment:
+- Pre-approval required for expenses over $200
+- Maximum $150/person for meals
+- Document attendees and business purpose
+- VP approval for events over $1,000
+
+Office Supplies:
+- Use approved vendors (Staples, Amazon Business)
+- Orders over $500 require manager approval
+- IT equipment must go through IT procurement
+
+APPROVAL MATRIX
+---------------
+$0 - $100: Self-approved (with receipt)
+$101 - $500: Manager approval
+$501 - $2,000: Director approval
+$2,001 - $10,000: VP approval
+$10,000+: CFO approval
+
+REIMBURSEMENT PROCESS
+---------------------
+1. Log into Concur expense system
+2. Create expense report
+3. Attach all receipts (photos acceptable)
+4. Add business justification
+5. Submit for approval
+6. Reimbursement within 10 business days of approval
+
+NON-REIMBURSABLE EXPENSES
+-------------------------
+- Personal travel extensions
+- Gym memberships while traveling
+- In-room movies or minibar
+- Traffic or parking violations
+- Personal phone calls
+- Upgrades without approval
+- Expenses without receipts over $25
+
+CORPORATE CREDIT CARDS
+----------------------
+- Available for employees with frequent travel
+- Must be used for business expenses only
+- Statements reconciled monthly
+- Report lost/stolen cards immediately to Finance
+
+QUESTIONS?
+----------
+Email: expense@cloud9.com
+Phone: ext. 2345
+Concur Support: ext. 2346

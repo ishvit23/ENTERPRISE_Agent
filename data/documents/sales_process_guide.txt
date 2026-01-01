@@ -1,0 +1,118 @@
+SALES DEPARTMENT - SALES PROCESS AND METHODOLOGY
+=================================================
+
+SALES STAGES
+------------
+1. PROSPECTING (0%)
+   - Identify potential customers
+   - Research company and contacts
+   - Initial outreach via email/call/LinkedIn
+   - Qualify basic fit
+
+2. DISCOVERY (10%)
+   - Initial meeting scheduled
+   - Understand business challenges
+   - Identify decision makers
+   - Document requirements using MEDDIC
+
+3. QUALIFICATION (25%)
+   - BANT confirmed (Budget, Authority, Need, Timeline)
+   - Technical requirements gathered
+   - Competition identified
+   - Champion identified
+
+4. DEMO/EVALUATION (50%)
+   - Product demonstration completed
+   - POC/Trial initiated if applicable
+   - Technical validation
+   - Business case developed
+
+5. PROPOSAL (75%)
+   - Pricing proposal delivered
+   - Contract terms discussed
+   - Procurement process understood
+   - Executive sponsor engaged
+
+6. NEGOTIATION (90%)
+   - Terms finalized
+   - Legal review in progress
+   - Final approvals pending
+   - Verbal commitment received
+
+7. CLOSED WON (100%)
+   - Contract signed
+   - PO received
+   - Handoff to Customer Success
+
+MEDDIC FRAMEWORK
+----------------
+M - Metrics: What business outcomes will customer achieve?
+E - Economic Buyer: Who has budget authority?
+D - Decision Criteria: How will they evaluate solutions?
+D - Decision Process: What steps to make a purchase?
+I - Identify Pain: What problems are they solving?
+C - Champion: Who will advocate internally for us?
+
+DEAL DESK PROCESS
+-----------------
+Submit to Deal Desk for:
+- Discounts over 15%
+- Non-standard payment terms
+- Custom contract clauses
+- Multi-year agreements
+- Enterprise deals over $100K
+
+SLA for Deal Desk response: 24 hours
+
+QUOTING AND PRICING
+-------------------
+Standard Products:
+- Use CPQ (Configure Price Quote) tool
+- List prices in Salesforce Price Book
+- Discount approval matrix applies
+
+Custom Solutions:
+- Engage Solutions Engineering
+- Custom SOW required
+- Finance approval for non-standard terms
+
+SALESFORCE HYGIENE
+------------------
+Required Fields:
+- Close Date (realistic, updated weekly)
+- Amount (committed value)
+- Next Steps (always current)
+- Stage (accurate to reality)
+- MEDDIC fields populated
+
+Updates required:
+- Before every forecast call
+- After every customer interaction
+- When deal dynamics change
+
+FORECAST CATEGORIES
+-------------------
+- Commit: 90%+ confidence, closing this period
+- Best Case: 60-89% confidence
+- Pipeline: 25-59% confidence
+- Upside: Under 25% confidence
+
+TERRITORY RULES
+---------------
+- Named accounts assigned to AEs
+- Geographic territories for SMB
+- Industry verticals for Enterprise
+- Round-robin for inbound leads
+
+COMMISSION STRUCTURE
+--------------------
+Base + Variable compensation
+On-target earnings (OTE) = Base + 100% target commission
+Accelerators kick in at 100% of quota
+Quarterly MBOs available for strategic initiatives
+
+SALES RESOURCES
+---------------
+Sales Enablement: enablement@cloud9.com
+Deal Desk: dealdesk@cloud9.com
+Sales Operations: salesops@cloud9.com

@@ -1,0 +1,108 @@
+LEGAL DEPARTMENT - CONTRACT AND AGREEMENT POLICY
+=================================================
+
+AUTHORITY TO SIGN CONTRACTS
+---------------------------
+Only authorized personnel may sign contracts on behalf of Cloud9:
+- CEO: Unlimited authority
+- CFO: Up to $5M
+- VPs: Up to $500K (within their department)
+- Directors: Up to $100K (within their department)
+- Managers: Up to $25K (standard terms only)
+
+All contracts MUST be reviewed by Legal before signature.
+
+CONTRACT TYPES
+--------------
+
+1. Customer Agreements
+   - Master Service Agreement (MSA)
+   - Order Forms/SOWs
+   - NDAs
+   - DPAs (Data Processing Agreements)
+
+2. Vendor Agreements
+   - Software licenses
+   - SaaS subscriptions
+   - Professional services
+   - Procurement contracts
+
+3. Partnership Agreements
+   - Channel partner agreements
+   - Technology partnerships
+   - Referral agreements
+
+4. Employment/HR Agreements
+   - Offer letters
+   - Employment agreements
+   - Separation agreements
+   - Contractor agreements
+
+CONTRACT REVIEW PROCESS
+-----------------------
+1. Requester submits contract to Legal via Jira LEGAL project
+2. Include: Contract document, business justification, deadline
+3. Legal reviews within SLA:
+   - Standard contracts: 3 business days
+   - Complex contracts: 5-10 business days
+   - Expedited: 24-48 hours (VP approval required)
+4. Legal provides redlines/comments
+5. Negotiation as needed
+6. Final approval and signature
+
+NON-NEGOTIABLE TERMS
+--------------------
+The following terms cannot be modified without CEO approval:
+- Unlimited liability
+- Indemnification caps below insurance coverage
+- Audit rights granting unrestricted access
+- IP ownership changes
+- Exclusivity clauses
+- Non-compete beyond standard employment terms
+- Governing law outside US/UK/EU
+
+STANDARD TERMS
+--------------
+Our standard positions:
+- Liability: Capped at 12 months of fees paid
+- Payment terms: Net 30
+- Contract term: Annual with auto-renewal
+- Termination: 30 days notice
+- Governing law: Delaware, USA
+- Dispute resolution: Binding arbitration
+
+NDA PROCESS
+-----------
+Standard Mutual NDA:
+- Use Cloud9 template (on Legal SharePoint)
+- Self-service for standard terms
+- 2-year confidentiality period
+- Mutual obligations
+
+Non-standard NDA:
+- Submit to Legal for review
+- Common issues: one-way, extended terms, broad definitions
+
+DATA PROTECTION
+---------------
+All agreements involving personal data must include:
+- GDPR-compliant DPA (EU customers)
+- CCPA addendum (California customers)
+- Standard Contractual Clauses (international transfers)
+
+Submit DPA requests with main contract.
+
+RECORD KEEPING
+--------------
+All signed contracts must be:
+- Uploaded to Contract Management System (Ironclad)
+- Tagged with correct metadata
+- Linked to Salesforce opportunity (customer contracts)
+- Stored for duration of contract + 7 years
+
+CONTACT LEGAL
+-------------
+General: legal@cloud9.com
+Contracts: contracts@cloud9.com
+Urgent: legal-urgent@cloud9.com (monitored 24/7)
+Phone: ext. 3000

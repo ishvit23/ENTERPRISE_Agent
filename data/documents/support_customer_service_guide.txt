@@ -1,0 +1,136 @@
+SUPPORT DEPARTMENT - CUSTOMER SERVICE HANDBOOK
+===============================================
+
+SUPPORT MISSION
+---------------
+"Deliver exceptional support that turns customers into advocates."
+
+SUPPORT TIERS
+-------------
+Tier 1 - Frontline Support
+- First point of contact
+- Basic troubleshooting
+- Account and billing questions
+- Known issue resolution
+- Escalate complex issues to Tier 2
+
+Tier 2 - Technical Support
+- Advanced troubleshooting
+- Product configuration
+- Integration support
+- Bug reproduction and documentation
+- Escalate to Engineering when needed
+
+Tier 3 - Engineering Support
+- Code-level debugging
+- Custom solutions
+- Critical bug fixes
+- Architecture guidance
+
+SUPPORT CHANNELS
+----------------
+- Email: support@cloud9.com
+- Phone: 1-800-CLOUD9-1
+- Chat: In-app and website
+- Portal: support.cloud9.com
+
+Hours by Plan:
+- Basic: M-F 9AM-6PM EST
+- Professional: M-F 8AM-8PM EST
+- Enterprise: 24/7/365
+
+SLA RESPONSE TIMES
+------------------
+                   Basic    Professional   Enterprise
+Critical (P1):     8 hrs    4 hrs          1 hr
+High (P2):         24 hrs   8 hrs          4 hrs
+Medium (P3):       48 hrs   24 hrs         8 hrs
+Low (P4):          72 hrs   48 hrs         24 hrs
+
+Resolution targets are 4x response times.
+
+PRIORITY DEFINITIONS
+--------------------
+P1 - Critical: Production down, no workaround, affecting business
+P2 - High: Major feature broken, workaround exists
+P3 - Medium: Feature issue, minimal business impact
+P4 - Low: Questions, feature requests, minor issues
+
+TICKET WORKFLOW
+---------------
+1. New: Ticket created
+2. Open: Agent assigned and working
+3. Pending: Waiting for customer response
+4. On Hold: Waiting for internal team (Engineering, PM)
+5. Solved: Resolution provided
+6. Closed: Customer confirmed or 7 days since solved
+
+CUSTOMER COMMUNICATION
+----------------------
+First Response:
+- Acknowledge receipt
+- Set expectations
+- Ask clarifying questions if needed
+- Provide immediate help if possible
+
+Updates:
+- Update every 24 hours minimum
+- Proactively communicate delays
+- Summarize progress and next steps
+
+Resolution:
+- Clearly explain solution
+- Provide documentation links
+- Offer additional assistance
+- Request feedback
+
+ESCALATION PROCESS
+------------------
+Customer request → Tier 1 Manager
+Technical issues → Tier 2
+Product bugs → Engineering via Jira
+Account issues → Customer Success Manager
+Executive escalation → Support Director
+
+KNOWLEDGE BASE
+--------------
+Always check KB before answering:
+- docs.cloud9.com
+- Internal KB (Confluence)
+- Past tickets in Zendesk
+
+Update KB when:
+- New issue patterns emerge
+- Workarounds discovered
+- New features released
+
+CSAT AND QUALITY
+----------------
+Target CSAT: 95%
+Surveys sent after ticket closure.
+Quality reviews: 5 tickets per agent per week
+Coaching sessions: Weekly 1:1s with team lead
+
+TOOLS
+-----
+- Zendesk: Ticketing system
+- Intercom: Chat support
+- Zoom: Screen sharing
+- Jira: Bug tracking
+- Confluence: Knowledge base
+- Salesforce: Customer information
+
+PROHIBITED ACTIONS
+------------------
+Never:
+- Share customer data externally
+- Make promises about unreleased features
+- Provide refunds without manager approval
+- Access customer accounts without permission
+- Blame other teams in customer communication
+
+CONTACT SUPPORT LEADERSHIP
+--------------------------
+Support Manager: support-mgr@cloud9.com
+Support Director: support-director@cloud9.com
+Escalations: escalations@cloud9.com

@@ -1,0 +1,59 @@
+CLOUD9 ENTERPRISE - EMPLOYEE HANDBOOK
+=====================================
+
+Welcome to Cloud9 Enterprise!
+
+COMPANY OVERVIEW
+----------------
+Cloud9 Enterprise is a leading technology solutions provider specializing in enterprise software, cloud infrastructure, and AI-powered business tools. Founded in 2015, we have grown to over 500 employees across 10 departments.
+
+CORE VALUES
+-----------
+1. Innovation First - We embrace new ideas and technologies
+2. Customer Success - Our clients' success is our success
+3. Collaboration - We work together across teams
+4. Integrity - We act honestly and transparently
+5. Excellence - We strive for the highest quality
+
+WORKING HOURS
+-------------
+- Standard hours: 9:00 AM - 6:00 PM
+- Flexible scheduling available with manager approval
+- Core collaboration hours: 10:00 AM - 4:00 PM
+- Remote work policy: Up to 3 days per week
+
+HOLIDAYS (2026)
+---------------
+- New Year's Day: January 1
+- Martin Luther King Jr. Day: January 19
+- Presidents' Day: February 16
+- Memorial Day: May 25
+- Independence Day: July 4
+- Labor Day: September 7
+- Thanksgiving: November 26-27
+- Christmas: December 24-25
+- New Year's Eve: December 31
+
+DRESS CODE
+----------
+Business casual is the standard. Smart casual on Fridays.
+Client-facing meetings require business professional attire.
+
+COMMUNICATION CHANNELS
+----------------------
+- Email: Primary for formal communication
+- Slack: Team collaboration and quick questions
+- Microsoft Teams: Video meetings and conferences
+- Jira: Project tracking and task management
+
+EXPENSE POLICY
+--------------
+All business expenses require pre-approval for amounts over $100.
+Submit expense reports within 30 days of purchase.
+Receipts required for all expenses over $25.
+
+IT SUPPORT
+----------
+Contact IT Help Desk: it-support@cloud9.com
+Emergency IT: ext. 5555
+Hours: 8:00 AM - 8:00 PM weekdays

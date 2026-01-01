@@ -1,0 +1,60 @@
+CLOUD9 ENTERPRISE - INFORMATION SECURITY POLICY
+================================================
+
+OVERVIEW
+--------
+This policy applies to ALL employees, contractors, and vendors with access to Cloud9 systems.
+
+PASSWORD REQUIREMENTS
+---------------------
+- Minimum 12 characters
+- Must include: uppercase, lowercase, numbers, and special characters
+- Change passwords every 90 days
+- No password reuse for last 10 passwords
+- Never share passwords with anyone
+
+MULTI-FACTOR AUTHENTICATION (MFA)
+---------------------------------
+MFA is MANDATORY for:
+- All cloud applications
+- VPN access
+- Email access from personal devices
+- Administrative consoles
+
+DATA CLASSIFICATION
+-------------------
+1. PUBLIC - Can be shared externally (marketing materials, press releases)
+2. INTERNAL - For employees only (internal memos, org charts)
+3. CONFIDENTIAL - Sensitive business data (financial reports, strategies)
+4. RESTRICTED - Highly sensitive (PII, health data, trade secrets)
+
+DATA HANDLING
+-------------
+- Never store CONFIDENTIAL or RESTRICTED data on personal devices
+- Use only approved cloud storage (OneDrive, approved SharePoint sites)
+- Encrypt all sensitive files before sharing
+- Shred physical documents containing sensitive information
+
+PHISHING & SOCIAL ENGINEERING
+-----------------------------
+- Verify sender email addresses carefully
+- Never click suspicious links
+- Report phishing attempts to security@cloud9.com
+- IT will NEVER ask for your password via email or phone
+
+DEVICE SECURITY
+---------------
+- Lock your computer when away (Win+L or Cmd+Ctrl+Q)
+- Enable full disk encryption
+- Install updates promptly when notified
+- Report lost or stolen devices IMMEDIATELY to IT
+
+INCIDENT REPORTING
+------------------
+Report security incidents to: security@cloud9.com
+Emergency Security Hotline: ext. 9999
+All incidents must be reported within 24 hours.
+
+CONSEQUENCES
+------------
+Violations may result in disciplinary action up to and including termination.

@@ -1,0 +1,127 @@
+IT DEPARTMENT - HELP DESK AND SUPPORT GUIDE
+============================================
+
+SUPPORT CHANNELS
+----------------
+Email: it-support@cloud9.com
+Phone: ext. 5555
+Slack: #it-helpdesk
+Portal: helpdesk.cloud9.com
+
+Hours: Monday-Friday, 8:00 AM - 8:00 PM EST
+Emergency Support: 24/7 for critical issues
+
+PRIORITY LEVELS
+---------------
+P1 - Critical (Response: 15 min)
+   - Production system down
+   - Security incident
+   - Affects all users
+
+P2 - High (Response: 1 hour)
+   - Major feature unavailable
+   - Significant performance degradation
+   - Affects department or team
+
+P3 - Medium (Response: 4 hours)
+   - Feature partially broken
+   - Workaround available
+   - Affects individual users
+
+P4 - Low (Response: 24 hours)
+   - Minor issues
+   - Enhancement requests
+   - Questions and how-tos
+
+COMMON REQUESTS
+---------------
+
+Password Reset:
+1. Go to password.cloud9.com
+2. Click "Forgot Password"
+3. Enter your email address
+4. Check email for reset link
+5. Create new password following policy
+
+VPN Access:
+- Download: vpn.cloud9.com
+- Install Cisco AnyConnect
+- Use your AD credentials
+- Enable MFA when prompted
+
+Software Installation:
+- Standard software: Self-service via Software Center
+- Non-standard: Submit request ticket
+- Approval required from manager for specialized tools
+
+New Laptop Setup:
+1. Submit new hire ticket (manager)
+2. Receive laptop on/before start date
+3. Complete initial setup with IT
+4. Enroll in MDM
+5. Install required software
+
+Equipment Refresh:
+- Laptops replaced every 3 years
+- Monitors and peripherals as needed
+- Submit refresh request 30 days before need
+
+APPROVED SOFTWARE
+-----------------
+Productivity: Microsoft 365, Google Workspace
+Communication: Slack, Microsoft Teams, Zoom
+Development: VS Code, JetBrains IDEs, Git
+Design: Figma, Adobe Creative Cloud
+Project Management: Jira, Confluence, Asana
+Security: 1Password, CrowdStrike
+
+BYOD POLICY
+-----------
+Personal devices allowed for:
+- Email access (with MDM enrollment)
+- Slack and Teams
+- Non-sensitive work
+
+Not allowed on personal devices:
+- Customer data
+- Source code
+- Financial information
+- HR records
+
+NETWORK INFORMATION
+-------------------
+Corporate WiFi: Cloud9-Corp (802.1X authentication)
+Guest WiFi: Cloud9-Guest (daily password posted in lobbies)
+Ethernet: Available at all desks, auto-configured
+
+PRINTING
+--------
+All printers are network-enabled.
+Print jobs require badge scan for release.
+Color printing tracked and charged to departments.
+Large jobs (>100 pages): Use print shop service.
+
+SECURITY REMINDERS
+------------------
+- Lock computer when away (Win+L)
+- Never share passwords
+- Report phishing to security@cloud9.com
+- Enable MFA everywhere possible
+- Keep software updated
+
+ESCALATION PATH
+---------------
+1. IT Help Desk
+2. IT Team Lead
+3. IT Manager
+4. IT Director
+5. CIO
+
+SUBMIT A TICKET
+---------------
+Best practices:
+- Descriptive subject line
+- Screenshot or video of issue
+- Steps to reproduce
+- Impact and urgency
+- Contact information

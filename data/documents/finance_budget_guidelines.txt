@@ -1,0 +1,110 @@
+FINANCE DEPARTMENT - BUDGET PLANNING GUIDELINES
+================================================
+
+FISCAL YEAR CALENDAR
+--------------------
+Fiscal Year: January 1 - December 31
+Q1: January - March
+Q2: April - June
+Q3: July - September
+Q4: October - December
+
+ANNUAL BUDGET CYCLE
+-------------------
+August: Budget kickoff and templates distributed
+September: Department heads submit initial budgets
+October: Finance review and consolidation
+November: Executive review and adjustments
+December: Final approval by Board
+January 1: New fiscal year begins
+
+BUDGET CATEGORIES
+-----------------
+
+1. Personnel Costs (typically 60-70% of budget)
+   - Salaries and wages
+   - Bonuses and commissions
+   - Benefits (health, dental, vision)
+   - Payroll taxes
+   - Contractor costs
+   - Training and development
+
+2. Operating Expenses
+   - Office rent and utilities
+   - Software subscriptions
+   - Hardware and equipment
+   - Office supplies
+   - Telecommunications
+   - Professional services
+
+3. Travel and Entertainment
+   - Business travel
+   - Client entertainment
+   - Team events
+   - Conference attendance
+
+4. Marketing and Sales
+   - Advertising and campaigns
+   - Events and sponsorships
+   - Collateral and content
+   - Lead generation tools
+
+5. Capital Expenditures (CapEx)
+   - Major equipment purchases
+   - Infrastructure investments
+   - Building improvements
+
+BUDGET VARIANCE REPORTING
+-------------------------
+Monthly variance reports due by 10th of following month.
+Variances over 10% require written explanation.
+Corrective action plans needed for significant overruns.
+
+REFORECASTING
+-------------
+Quarterly reforecasts required:
+- Q1 reforecast: April 15
+- Q2 reforecast: July 15
+- Q3 reforecast: October 15
+
+COST CENTER STRUCTURE
+---------------------
+Format: DEPT-TYPE-PROJECT
+Example: ENG-OPEX-PLATFORM
+
+Departments:
+- ENG: Engineering
+- SAL: Sales
+- MKT: Marketing
+- FIN: Finance
+- HR: Human Resources
+- IT: Information Technology
+- OPS: Operations
+- LEG: Legal
+
+Types:
+- OPEX: Operating expenses
+- CAPEX: Capital expenditures
+- PERS: Personnel costs
+
+APPROVAL THRESHOLDS
+-------------------
+Unbudgeted expenses require approval:
+- Under $5,000: Department Head
+- $5,000 - $25,000: VP
+- $25,000 - $100,000: CFO
+- Over $100,000: CEO + CFO
+
+HEADCOUNT PLANNING
+------------------
+All new positions require:
+1. Job description and justification
+2. Budget allocation identified
+3. HR and Finance sign-off
+4. VP or C-level approval
+
+CONTACT FINANCE
+---------------
+Budget Questions: budget@cloud9.com
+Financial Planning: fp&a@cloud9.com
+Controller: controller@cloud9.com

@@ -1,0 +1,88 @@
+ENGINEERING DEPARTMENT - CODING STANDARDS AND BEST PRACTICES
+=============================================================
+
+CODE STYLE GUIDELINES
+---------------------
+Python:
+- Follow PEP 8 style guide
+- Use Black for formatting (line length: 100)
+- Type hints required for all public functions
+- Docstrings required (Google style)
+
+JavaScript/TypeScript:
+- Use ESLint with Airbnb config
+- Prettier for formatting
+- TypeScript preferred for all new projects
+- Strict mode enabled
+
+Java:
+- Follow Google Java Style Guide
+- Use Checkstyle for enforcement
+- JavaDoc for all public APIs
+
+GIT WORKFLOW
+------------
+Branch Naming:
+- feature/JIRA-123-short-description
+- bugfix/JIRA-456-fix-description
+- hotfix/JIRA-789-urgent-fix
+
+Commit Messages:
+- Format: "JIRA-123: Brief description of change"
+- Use present tense ("Add feature" not "Added feature")
+- Keep first line under 72 characters
+
+Pull Requests:
+- Require 2 approvals minimum
+- All CI checks must pass
+- Squash commits before merge
+- Delete branch after merge
+
+CODE REVIEW CHECKLIST
+---------------------
+□ Code follows style guidelines
+□ Unit tests included (minimum 80% coverage)
+□ No hardcoded secrets or credentials
+□ Error handling implemented
+□ Logging added for debugging
+□ Documentation updated
+□ No obvious security vulnerabilities
+□ Performance considerations addressed
+
+TESTING REQUIREMENTS
+--------------------
+- Unit tests: Required for all new code
+- Integration tests: Required for API changes
+- E2E tests: Required for user-facing features
+- Minimum coverage: 80% for new code, 70% overall
+
+CI/CD PIPELINE
+--------------
+1. Linting and formatting check
+2. Unit tests
+3. Integration tests
+4. Security scan (Snyk)
+5. Build artifacts
+6. Deploy to staging (automatic for develop branch)
+7. Deploy to production (manual approval required)
+
+ENVIRONMENTS
+------------
+- Development: dev.cloud9.internal
+- Staging: staging.cloud9.internal
+- Production: app.cloud9.com
+
+ONCALL ROTATION
+---------------
+- Primary and secondary oncall each week
+- Rotation schedule in PagerDuty
+- Handoff meeting every Monday 10 AM
+- Escalation path: Primary → Secondary → Engineering Manager
+
+TECH STACK
+----------
+Frontend: React, TypeScript, Tailwind CSS
+Backend: Python (FastAPI), Node.js (Express)
+Database: PostgreSQL, Redis, MongoDB
+Infrastructure: AWS, Kubernetes, Terraform
+Monitoring: DataDog, PagerDuty

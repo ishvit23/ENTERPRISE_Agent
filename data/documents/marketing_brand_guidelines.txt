@@ -1,0 +1,114 @@
+MARKETING DEPARTMENT - BRAND GUIDELINES
+========================================
+
+BRAND IDENTITY
+--------------
+Company Name: Cloud9 Enterprise
+Tagline: "Elevate Your Business"
+Brand Voice: Professional, innovative, approachable, trustworthy
+
+LOGO USAGE
+----------
+Primary Logo:
+- Full color on white/light backgrounds
+- White version on dark backgrounds
+- Minimum size: 120px width digital, 1" print
+- Clear space: Height of the "9" on all sides
+
+Logo Don'ts:
+- Don't stretch or distort
+- Don't change colors
+- Don't add effects (shadows, gradients)
+- Don't place on busy backgrounds
+- Don't rotate or flip
+
+COLOR PALETTE
+-------------
+Primary Colors:
+- Cloud Blue: #667eea (primary brand color)
+- Deep Purple: #764ba2 (accent color)
+- Midnight: #1a1a2e (text/dark backgrounds)
+
+Secondary Colors:
+- Sky: #a8d8ea
+- Mist: #f0f4f8
+- Storm: #4a5568
+
+Accent Colors:
+- Success Green: #48bb78
+- Warning Yellow: #ecc94b
+- Error Red: #f56565
+
+TYPOGRAPHY
+----------
+Primary Font: Inter
+- Headlines: Inter Bold (700)
+- Subheadlines: Inter Semibold (600)
+- Body: Inter Regular (400)
+- Captions: Inter Light (300)
+
+Secondary Font: Source Code Pro (for code/technical content)
+
+PHOTOGRAPHY STYLE
+-----------------
+- Authentic, diverse representation
+- Natural lighting preferred
+- Modern office and technology settings
+- Avoid stock photo clichés
+- High resolution (minimum 300dpi print, 72dpi web)
+
+IMAGE GUIDELINES
+----------------
+- Hero images: 16:9 aspect ratio
+- Blog thumbnails: 1200x630px
+- Social media: Platform-specific sizes
+- All images must be properly licensed
+
+MESSAGING PILLARS
+-----------------
+1. Innovation: Leading-edge technology solutions
+2. Reliability: Enterprise-grade performance and security
+3. Partnership: We succeed when our customers succeed
+4. Simplicity: Complex problems, elegant solutions
+
+CONTENT GUIDELINES
+------------------
+Writing Style:
+- Active voice preferred
+- Short paragraphs (2-3 sentences)
+- Bulleted lists for scanability
+- Headlines that convey value
+- Avoid jargon, explain technical terms
+
+Tone by Channel:
+- Website: Professional, confident
+- Blog: Educational, helpful
+- Social: Conversational, engaging
+- Email: Personalized, action-oriented
+- Sales Materials: Solution-focused, ROI-driven
+
+SOCIAL MEDIA
+------------
+Handles: @Cloud9Enterprise (all platforms)
+Hashtags: #Cloud9 #ElevateYourBusiness
+Posting Guidelines:
+- LinkedIn: 1-2x daily, business focus
+- Twitter/X: 3-5x daily, news and engagement
+- Facebook: 1x daily, community focus
+- Instagram: 3x weekly, culture and brand
+
+TEMPLATES AND ASSETS
+--------------------
+All brand assets available at: brand.cloud9.com
+- Logo files (all formats)
+- Presentation templates
+- Document templates
+- Email signatures
+- Social media templates
+- Stock photo library
+
+BRAND APPROVAL
+--------------
+All external-facing materials require Marketing approval.
+Submit requests: brand@cloud9.com
+Turnaround: 2-3 business days

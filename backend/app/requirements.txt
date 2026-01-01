@@ -1,0 +1,27 @@
+# Core API
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Vector DB
+chromadb
+
+# Embeddings & LLM
+sentence-transformers
+
+
+# Auth & Security
+python-jose[cryptography]
+python-dotenv
+requests
+oauthlib
+python-multipart
+
+# Async & WebSockets
+websockets
+aiofiles
+passlib==1.7.4
+bcrypt==4.0.1
