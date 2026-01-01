@@ -3,7 +3,7 @@ Answer Agent: Generates responses using LLM with retrieved context.
 
 This agent is responsible for:
 1. Constructing effective prompts with context
-2. Calling the LLM (Ollama) for answer generation
+2. Calling the LLM (Groq or Ollama) for answer generation
 3. Parsing and validating LLM responses
 4. Providing confidence scores for answers
 5. Falling back gracefully when LLM is unavailable
@@ -11,12 +11,22 @@ This agent is responsible for:
 from starlette.config import Config
 import requests
 import json
+import os
 from typing import Tuple
 
 config = Config('.env')
+
+# Groq API (Free, recommended for students)
+GROQ_API_KEY = os.getenv('GROQ_API_KEY', config('GROQ_API_KEY', cast=str, default=''))
+GROQ_MODEL = config('GROQ_MODEL', cast=str, default='llama-3.1-8b-instant')
+
+# Ollama fallback (for local development)
 OLLAMA_HOST = config('OLLAMA_HOST', cast=str, default='host.docker.internal')
 OLLAMA_PORT = config('OLLAMA_PORT', cast=str, default='11434')
 LLM_MODEL = config('LLM_MODEL', cast=str, default='llama2')
+
+# Use Groq if API key is available, otherwise Ollama
+USE_GROQ = bool(GROQ_API_KEY)
 
 # Confidence keywords for heuristic scoring
 HIGH_CONFIDENCE_PHRASES = [
@@ -119,6 +129,7 @@ def estimate_confidence(answer: str, context: str) -> float:
 def generate_answer(question: str, context: str, user_department: str = None) -> Tuple[str, float]:
     """
     Generate an answer using the LLM with the provided context.
+    Uses Groq API if available (free, fast), otherwise falls back to Ollama.
     
     Args:
         question: User's question
@@ -132,7 +143,43 @@ def generate_answer(question: str, context: str, user_department: str = None) ->
     
     print(f"[AnswerAgent] Generating answer for: {question[:50]}...")
     print(f"[AnswerAgent] Context length: {len(context)} chars")
+    print(f"[AnswerAgent] Using: {'Groq API' if USE_GROQ else 'Ollama'}")
     
+    # Try Groq first (free cloud LLM)
+    if USE_GROQ:
+        try:
+            response = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {GROQ_API_KEY}",
+                    "Content-Type": "application/json"
+                },
+                json={
+                    "model": GROQ_MODEL,
+                    "messages": [
+                        {"role": "system", "content": "You are an Enterprise Knowledge Assistant. Answer questions based only on the provided context."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    "temperature": 0.3,
+                    "max_tokens": 500
+                },
+                timeout=30
+            )
+            
+            if response.ok:
+                result = response.json()
+                answer = result.get('choices', [{}])[0].get('message', {}).get('content', '').strip()
+                if answer:
+                    confidence = estimate_confidence(answer, context)
+                    print(f"[AnswerAgent] Groq response ({len(answer)} chars, confidence: {confidence:.2f})")
+                    return answer, confidence
+            else:
+                print(f"[AnswerAgent] Groq API error: {response.status_code} - {response.text[:200]}")
+                
+        except Exception as e:
+            print(f"[AnswerAgent] Groq error: {e}")
+    
+    # Fallback to Ollama (local LLM)
     try:
         response = requests.post(
             f"http://{OLLAMA_HOST}:{OLLAMA_PORT}/api/generate",
@@ -141,15 +188,15 @@ def generate_answer(question: str, context: str, user_department: str = None) ->
                 "prompt": prompt,
                 "stream": False,
                 "options": {
-                    "temperature": 0.3,  # Lower temperature for more focused answers
+                    "temperature": 0.3,
                     "top_p": 0.9,
-                    "num_predict": 500   # Limit response length
+                    "num_predict": 500
                 }
             },
             timeout=60
         )
         
-        print(f"[AnswerAgent] LLM response status: {response.status_code}")
+        print(f"[AnswerAgent] Ollama response status: {response.status_code}")
         
         if response.ok:
             try:
@@ -162,7 +209,6 @@ def generate_answer(question: str, context: str, user_department: str = None) ->
                     return answer, confidence
                     
             except json.JSONDecodeError:
-                # Handle streaming response format
                 lines = response.text.strip().splitlines()
                 full_answer = ""
                 for line in lines:
@@ -177,8 +223,7 @@ def generate_answer(question: str, context: str, user_department: str = None) ->
                     confidence = estimate_confidence(full_answer, context)
                     return full_answer.strip(), confidence
         
-        # LLM call failed
-        print(f"[AnswerAgent] LLM request failed: {response.status_code}")
+        print(f"[AnswerAgent] Ollama request failed: {response.status_code}")
         
     except requests.exceptions.Timeout:
         print("[AnswerAgent] LLM request timed out")

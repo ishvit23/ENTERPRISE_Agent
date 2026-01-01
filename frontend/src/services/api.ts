@@ -51,7 +51,8 @@ export async function deleteDocument(docId: string) {
 }
 // src/services/api.ts
 
-const API_BASE = 'http://localhost:8000';
+// Use environment variable for production, fallback to localhost for development
+const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 
 function getAuthHeaders(): Record<string, string> {
   const token = localStorage.getItem('jwt_token');
